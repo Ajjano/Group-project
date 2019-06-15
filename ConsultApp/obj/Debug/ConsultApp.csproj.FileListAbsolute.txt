@@ -24,3 +24,34 @@ D:\command project\Command-project\ConsultApp\obj\Debug\panel2.g.cs
 D:\command project\Command-project\ConsultApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\command project\Command-project\ConsultApp\obj\Debug\panel1.baml
 D:\command project\Command-project\ConsultApp\obj\Debug\panel2.baml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\ConsultApp.exe.config
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\ConsultApp.exe
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\ConsultApp.pdb
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\EntityFramework.dll
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\EntityFramework.xml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.csprojAssemblyReference.cache
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\MainWindow.g.cs
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\panel1.g.cs
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\panel2.g.cs
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\App.g.cs
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp_MarkupCompile.cache
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp_MarkupCompile.lref
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\App.baml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\MainWindow.baml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\panel1.baml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\panel2.baml
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.g.resources
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.Properties.Resources.resources
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.GenerateResource.cache
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CopyComplete
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.exe
+C:\Users\Nick\Documents\01_Mine\GroupProject\Group-project\ConsultApp\obj\Debug\ConsultApp.pdb
