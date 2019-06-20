@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="ConsultApp.ForAdmin.AddNewAud"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ConsultApp"
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="500">
+    <UserControl.Resources>
+        <Style x:Key="TextBlockStyle1" TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+            <Setter Property="TextTrimming" Value="None"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF35A1B9"  >
+            <TextBlock Text="Добавление новой аудитории" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" Style="{DynamicResource TextBlockStyle1}"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 2">
+                    <TextBlock Text="Номер" TextAlignment="Right" Margin="10 0" VerticalAlignment="Bottom" Style="{DynamicResource TextBlockStyle1}"/>
+                    <TextBox x:Name="Txt_NumberOfAud" Width="150"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0 2">
+                    <TextBlock Text="Кол-во мест" TextAlignment="Right" Margin="10 0" VerticalAlignment="Bottom" Style="{DynamicResource TextBlockStyle1}"/>
+                    <TextBox x:Name="Txt_AmountOfSeats" Width="150"/>
+                </StackPanel>
+            </StackPanel>
+            <Button Grid.Row="1" Content="Создать" Width="100" Height="35" Padding="0" VerticalAlignment="Top" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="1"/>
+        </Grid>
+    </Grid>
+</UserControl>

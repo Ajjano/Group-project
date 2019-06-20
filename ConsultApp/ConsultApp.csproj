@@ -44,8 +44,8 @@
     <Reference Include="MaterialDesignColors, Version=1.2.0.1418, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\MaterialDesignColors.1.2.0-ci1418\lib\net45\MaterialDesignColors.dll</HintPath>
     </Reference>
-    <Reference Include="MaterialDesignThemes.Wpf, Version=2.6.0.1435, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MaterialDesignThemes.2.6.0-ci1435\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.6.0.1444, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.2.6.0-ci1444\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -68,7 +68,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Page Include="Booking\BookingPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Booking\BookingPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\AddNewAud.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\AdminAccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\Auds.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForAdmin\Teachers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main window\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -76,26 +104,47 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Booking\BookingPage1.xaml.cs">
+      <DependentUpon>BookingPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\BookingPage2.xaml.cs">
+      <DependentUpon>BookingPage2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ConnectDB.cs" />
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="ForAdmin\AddNewAud.xaml.cs">
+      <DependentUpon>AddNewAud.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\AdminAccount.xaml.cs">
+      <DependentUpon>AdminAccount.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\Auds.xaml.cs">
+      <DependentUpon>Auds.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\Teachers.xaml.cs">
+      <DependentUpon>Teachers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main window\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="panel1.xaml">
+    <Page Include="Main window\panel1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="panel2.xaml">
+    <Page Include="Personal account\PersonalAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="panel1.xaml.cs">
+    <Compile Include="Main window\panel1.xaml.cs">
       <DependentUpon>panel1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="panel2.xaml.cs">
-      <DependentUpon>panel2.xaml</DependentUpon>
+    <Compile Include="Personal account\PersonalAccount.xaml.cs">
+      <DependentUpon>PersonalAccount.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -122,6 +171,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cancel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

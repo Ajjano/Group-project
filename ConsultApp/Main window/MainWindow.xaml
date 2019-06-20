@@ -1,0 +1,80 @@
+﻿<Window x:Class="ConsultApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsultApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1080">
+    <Window.Resources>
+        <!--<Storyboard x:Key="MenuOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="60"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="200"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="MenuClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="200"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="60"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>-->
+        <Style x:Key="StripStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+            <Setter Property="TextTrimming" Value="None"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="Tw Cen MT Condensed Extra Bold"/>
+
+        </Style>
+    </Window.Resources>
+
+    <!--<Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="OpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuOpen}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="CloseMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
+        </EventTrigger>
+    </Window.Triggers>-->
+    <Grid Background="LightGray">
+        <Grid Height="70" VerticalAlignment="Top" Background="#FF35A1B9">
+            <TextBlock Text="Appp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+        <WrapPanel x:Name="WrapPanel" RenderTransformOrigin="0.494,0.707" Margin="30,100,30,30">
+           
+        </WrapPanel>
+       
+        
+        <!--<Grid x:Name="GridMenu" Width="200" HorizontalAlignment="Left" Background="Azure">
+            <StackPanel>
+                <Grid Height="48" Background="White">
+                    <Button x:Name="CloseMenu" Width="60" Height="60" Visibility="Collapsed" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Click="CloseMenu_Click">
+                        <materialDesign:PackIcon Foreground="Black" Kind="ArrowLeft"/>
+                    </Button>
+                    <Button x:Name="OpenMenu" Width="60" Height="60" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Click="OpenMenu_Click">
+                        <materialDesign:PackIcon Height="30" Width="30" Foreground="Black" Kind="Menu" />
+                    </Button>
+                </Grid>
+                <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Foreground="Black">
+                    <ListViewItem Height="60">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="ЛИЧНЫЙ КАБИНЕТ" VerticalAlignment="Center" Margin="40 0 0 0"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Login" VerticalAlignment="Center" Margin="40 0 0 0"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewAgenda" Width="25" Height="25"  Margin="10 0 0 0"/>
+                            <TextBlock Text="Login" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+        </Grid>-->
+    </Grid>
+</Window>
