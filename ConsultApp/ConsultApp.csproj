@@ -84,6 +84,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ForAdmin\AllConsults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ForAdmin\Auds.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -116,6 +120,9 @@
     </Compile>
     <Compile Include="ForAdmin\AdminAccount.xaml.cs">
       <DependentUpon>AdminAccount.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\AllConsults.xaml.cs">
+      <DependentUpon>AllConsults.xaml</DependentUpon>
     </Compile>
     <Compile Include="ForAdmin\Auds.xaml.cs">
       <DependentUpon>Auds.xaml</DependentUpon>
