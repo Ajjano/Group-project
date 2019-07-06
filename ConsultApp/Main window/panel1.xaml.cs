@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.Entity;
+using System.Data.SqlClient;
 
 namespace ConsultApp
 {
@@ -23,6 +25,19 @@ namespace ConsultApp
         public panel1()
         {
             InitializeComponent();
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            builder.DataSource = @".\SQLEXPRESS";
+            builder.InitialCatalog = "ConsultsDb";
+            builder.IntegratedSecurity = true;
+            MessageBox.Show(builder.ConnectionString);
+            using (ConnectDB db = new ConnectDB(builder.ConnectionString))
+            {
+                User user = new User { Firstnsme = "Oleg", Lastname = "Romanov", Login = "roma_53w", Password = "1223", IsAdmin = false };
+                db.Users.Add(user);
+                db.SaveChanges();
+                Room room = new Room { NumberRoom = 1, Roominess = 12, IsAvailable = true, ToArchive = false };
+               // dataGridView1.DataSource = db.Users.Local.ToBindingList();
+            }
         }
     }
 }

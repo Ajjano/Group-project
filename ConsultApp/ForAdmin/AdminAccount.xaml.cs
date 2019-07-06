@@ -25,7 +25,7 @@ namespace ConsultApp.ForAdmin
             InitializeComponent();
         }
 
-        private void BtnAud_Click(object sender, RoutedEventArgs e)
+        private void BtnRoom_Click(object sender, RoutedEventArgs e)
         {
             int index = int.Parse(((Button)e.Source).Uid);
 
@@ -34,7 +34,7 @@ namespace ConsultApp.ForAdmin
             switch (index)
             {
                 case 0:
-                    NewdataGrid.Children.Add(new Auds());
+                    NewdataGrid.Children.Add(new Rooms());
                     break;
                 case 1:
                     NewdataGrid.Children.Add(new Teachers());
@@ -42,6 +42,16 @@ namespace ConsultApp.ForAdmin
                 default:
                     break;
             }
+        }
+
+        private void BtnConsult_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnTeachers_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -6,29 +6,40 @@
       xmlns:local="clr-namespace:ConsultApp.ForAdmin"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="330" d:DesignWidth="800"
       Title="AllConsults">
 
     <Grid Background="WhiteSmoke">
         <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
+            <RowDefinition Height="40"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Background="#FF35A1B9">
+        <!--<Grid Grid.Row="0" Background="#FF35A1B9">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="10*"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="1" Text="Консультации" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <materialDesign:PackIcon Grid.Column="2" Kind="PlusBox" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            --><!--<TextBlock Grid.Column="1" Text="Консультации" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <materialDesign:PackIcon Grid.Column="2" Kind="PlusBox" VerticalAlignment="Center" HorizontalAlignment="Center"/>--><!--
+        </Grid>-->
+        <Grid Grid.Row="0" Margin="40 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <DatePicker x:Name="datePicker" Grid.Column="0" Width="100" Margin="10 0"/>
+            <ComboBox x:Name="doubleLessonCombo" Grid.Column="1" Margin="10 0"/>
+            <ComboBox x:Name="roomCombo" Grid.Column="2" Margin="10 0"/>
+            <ComboBox x:Name="teacherCombo" Grid.Column="3" Margin="10 0"/>
+            <Button x:Name="searchBtn" Grid.Column="4" Margin="10 0" Content="Поиск" BorderBrush="Black" BorderThickness="1"/>
         </Grid>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Height="70">
-            <DatePicker Width="100"/>
-            <ComboBox Width="50"/>
-            <ComboBox Width="50"/>
-            <ComboBox Width="150"/>
-            <Button Width="100" Content="Поиск" BorderBrush="Black" BorderThickness="1"/>
-        </StackPanel>
+        <DataGrid Grid.Row="2" Margin="40 10">
+            
+        </DataGrid>
+       
     </Grid>
 </Page>

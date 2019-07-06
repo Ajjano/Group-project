@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ConsultApp.ForAdmin"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="500">
+             d:DesignHeight="330" d:DesignWidth="500">
     <Grid>
         <DataGrid x:Name="TeacherTable">
             <DataGrid.Resources>

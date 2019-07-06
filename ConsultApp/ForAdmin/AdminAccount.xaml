@@ -14,19 +14,22 @@
         <Grid DockPanel.Dock="Top" Height="70" VerticalAlignment="Top" Background="#FF35A1B9">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
-                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="10*"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="1" Text="Appp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <StackPanel Grid.Column="2" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <!--<StackPanel Grid.Column="2" Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Center">
                     <Button Content="Add new Aud" HorizontalAlignment="Right" Margin="10 0" FontSize="12" Padding="5 0"/>
                     <Button Content="Add new Teacher" HorizontalAlignment="Right" Margin="10 0" FontSize="12" Padding="5 0"/>
-                </StackPanel>
+                </StackPanel>-->
+                <materialDesign:PackIcon Grid.Column="2" Kind="PlusBox" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
             </Grid>
           <Grid DockPanel.Dock="Top" Height="50">
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
-                    <Button Uid="0" Width="150" Content="АУДИТОРИИ" Height="50" Foreground="Black" Click="BtnAud_Click"/>
-                    <Button Uid="1" Width="150" Content="ПРЕПОДАВАТЕЛИ" Height="50" Foreground="Black" Click="BtnTeachers_Click"/>
+                    <Button Uid="0" Width="150" Content="АУДИТОРИИ" Height="50" Foreground="Black" Click="BtnRoom_Click" Background="Transparent" BorderThickness="0"/>
+                    <Button Uid="1" Width="150" Content="ПРЕПОДАВАТЕЛИ" Height="50" Foreground="Black" Click="BtnTeachers_Click" Background="Transparent" BorderThickness="0"/>
+                    <Button Uid="2" Width="150" Content="КОНСУЛЬТАЦИИ" Height="50" Foreground="Black" Click="BtnConsult_Click" Background="Transparent" BorderThickness="0"/>
                 </StackPanel>
           </Grid>
             <Grid DockPanel.Dock="Top" x:Name="GridCursor" Width="150" Height="5" Background="Gray" HorizontalAlignment="Left" Margin="10 0"/>
