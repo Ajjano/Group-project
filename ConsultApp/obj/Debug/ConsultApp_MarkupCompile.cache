@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\
 ConsultApp
 none
 false
 DEBUG;TRACE
-C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\App.xaml
-111390973961
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\App.xaml
+121703064794
 
-16-1923482748
-18-581864837
-Booking\BookingPage1.xaml;Booking\BookingPage2.xaml;ForAdmin\AddNewAud.xaml;ForAdmin\AdminAccount.xaml;ForAdmin\AllConsults.xaml;ForAdmin\Rooms.xaml;ForAdmin\Teachers.xaml;LoginWindow.xaml;Main window\MainWindow.xaml;Main window\panel1.xaml;Personal account\PersonalAccount.xaml;
+171085997410
+18-1443387953
+Booking\BookingPage1.xaml;Booking\BookingPage2.xaml;ConnectWindow.xaml;ForAdmin\AddNewAud.xaml;ForAdmin\AdminAccount.xaml;ForAdmin\AllConsults.xaml;ForAdmin\Rooms.xaml;ForAdmin\Teachers.xaml;LoginWindow.xaml;Main window\MainWindow.xaml;Main window\panel1.xaml;Personal account\PersonalAccount.xaml;
 
 False
 

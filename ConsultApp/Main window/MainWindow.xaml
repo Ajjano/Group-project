@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ConsultApp"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1080">
+        Title="MainWindow" Height="600" Width="1080" Loaded="MainWindow_Loaded">
     <Window.Resources>
         <!--<Storyboard x:Key="MenuOpen">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
