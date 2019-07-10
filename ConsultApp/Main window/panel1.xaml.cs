@@ -22,10 +22,13 @@ namespace ConsultApp
     /// </summary>
     public partial class panel1 : UserControl
     {
-        public panel1()
+        SqlConnectionStringBuilder builder;
+        int numberOfRoom;
+        public panel1(int numberOfRoom)
         {
             InitializeComponent();
-            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            this.numberOfRoom = numberOfRoom;
+            builder = new SqlConnectionStringBuilder();
             builder.DataSource = @".\SQLEXPRESS";
             builder.InitialCatalog = "ConsultsDb";
             builder.IntegratedSecurity = true;
@@ -37,6 +40,16 @@ namespace ConsultApp
                 db.SaveChanges();
                 Room room = new Room { NumberRoom = 1, Roominess = 12, IsAvailable = true, ToArchive = false };
                // dataGridView1.DataSource = db.Users.Local.ToBindingList();
+            }
+
+        }
+
+        public void SelectDataFromDB()
+        {
+            using(ConnectDB db=new ConnectDB())
+            {
+                var doubleLess=db.Consultations.Join(db.Rooms,
+                    p=>p.RoomId, c=>c.RoomId)
             }
         }
     }

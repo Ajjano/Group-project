@@ -39,6 +39,9 @@ namespace ConsultApp.ForAdmin
                 case 1:
                     NewdataGrid.Children.Add(new Teachers());
                     break;
+                case 2:
+                    NewdataGrid.Children.Add(new AllConsults());
+                    break;
                 default:
                     break;
             }
