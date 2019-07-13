@@ -48,8 +48,8 @@ namespace ConsultApp
         {
             using(ConnectDB db=new ConnectDB())
             {
-                var doubleLess=db.Consultations.Join(db.Rooms,
-                    p=>p.RoomId, c=>c.RoomId)
+                //var doubleLess=db.Consultations.Join(db.Rooms,
+                //    p=>p.RoomId, c=>c.RoomId)
             }
         }
     }

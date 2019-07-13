@@ -4,60 +4,44 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ConsultApp"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="250" d:DesignWidth="400">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Button Content="-" Background="Transparent" BorderThickness="0" FontSize="24" FontFamily="Comic Sans MS" HorizontalAlignment="Center" Panel.ZIndex="10" Margin="10,10,34,0" Grid.Column="4" Width="16"/>
-        <Button Content="x" Background="Transparent" BorderThickness="0" FontSize="18" FontFamily="Comic Sans MS" HorizontalAlignment="Center" Panel.ZIndex="10" Margin="31,10,6,0" Grid.Column="4" Width="23"/>
-        <Label Grid.Row="2" Grid.ColumnSpan="2" Panel.ZIndex="5" FontSize="15" FontFamily="Comic Sans MS" Content="Nickname" Grid.Column="1"/>
-        <TextBox Grid.Row="3" Grid.ColumnSpan="5" Panel.ZIndex="10" TabIndex="1" FontFamily="Arial"  BorderThickness="0" Background="Transparent" Margin="54 8 53 7"/>
-        <Label Grid.Row="4" Grid.ColumnSpan="2" Panel.ZIndex="5" FontSize="15" FontFamily="Comic Sans MS" Content="Password" Grid.Column="1"/>
-        <TextBox Grid.Row="5" Grid.ColumnSpan="5" Panel.ZIndex="10" BorderThickness="0" Background="Transparent" FontFamily="Arial" TabIndex="1" Margin="54 8 53 7"/>
-        <CheckBox Grid.Row="6" Panel.ZIndex="10" Grid.Column="0" BorderThickness="1" Grid.ColumnSpan="3" Content="Запомнить" Padding="0" FontFamily="Comic Sans MS" Height="38" VerticalAlignment="Top" Margin="52,0,43,0"/>
-        <Button Panel.ZIndex="10" Content="Забыли пароль?" FontStyle="Italic" Background="Transparent" BorderThickness="0" FontSize="12" FontFamily="Comic Sans MS" HorizontalAlignment="Center" Margin="0,0,10,0" Grid.Column="3" Width="110" Grid.Row="6" Grid.ColumnSpan="2" Padding="0" Height="Auto"/>
+    <Border Background="#FFFFFBFB" CornerRadius="15">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="196*"/>
+                        <ColumnDefinition Width="37*"/>
+                        <ColumnDefinition Width="467*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Логин" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="Пароль" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBox x:Name="Txt_login" Grid.Column="2" Grid.Row="0" Text="Введите логин" Height="30" Foreground="Gray" Width="200" HorizontalAlignment="Left" Margin="0,17,0,15"/>
+                    <TextBox x:Name="Txt_password" Grid.Column="2" Grid.Row="1" Text="Введите пароль" Height="30" Foreground="Gray" Width="200" HorizontalAlignment="Left" Margin="0,18,0,15"/>
+                </Grid>
 
-
-        <Border BorderBrush="Black" Panel.ZIndex="1"
-             BorderThickness="1"
-             CornerRadius="10"
-             Background="White" Grid.Row="3" Grid.ColumnSpan="5" Margin="52 3 50 10"/>
-        <Border BorderBrush="Black" Panel.ZIndex="1"
-             BorderThickness="1"
-             CornerRadius="10"
-             Background="White" Grid.Row="5" Grid.ColumnSpan="5" Margin="52,3,50,10"/>
-        <Border BorderBrush="BlueViolet" Panel.ZIndex="3"
-             BorderThickness="1.5"
-             CornerRadius="10"
-             Background="Transparent" Grid.RowSpan="8" Grid.ColumnSpan="5" Margin="-2,-3,0,0">
-        </Border>
-        <Border BorderBrush="BlueViolet" Panel.ZIndex="-10"
-             BorderThickness="1.5"
-             CornerRadius="10"
-             Background="White" Grid.RowSpan="8" Grid.ColumnSpan="5" Margin="-2,-3,0,0"/>
-        <Border Panel.ZIndex="5"
-             BorderThickness="1.5"
-             CornerRadius="10"
-             Background="BlueViolet" Grid.ColumnSpan="5" Margin="-3,-3,0,3"/>
-        <Border Panel.ZIndex="-10"
-             BorderThickness="0"
-             Background="BlueViolet" Grid.ColumnSpan="5" Margin="0,15,0,28" Grid.RowSpan="2"/>
-    </Grid>
+            </Grid>
+            <TextBlock Grid.Row="0" Text="Вход" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+            <StackPanel Grid.Row="2" Orientation="Vertical">
+                <StackPanel  Width="auto" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <CheckBox x:Name="Check_Remember" VerticalAlignment="Center" IsChecked="False" Width="20" Height="20" Content="Запомнить"/>
+                    <TextBlock Text="Запомнить" TextAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+                    <Button x:Name="Btn_forgetPassword" Content="Забыли пароль?" Width="auto" FontSize="10" BorderThickness="0" Margin="100 0 0 0"/>
+                </StackPanel>
+                <Button x:Name="Btn_Login" Content="Войти"/>
+            </StackPanel>
+        </Grid>
+    </Border>
 </UserControl>

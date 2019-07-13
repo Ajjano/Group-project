@@ -80,6 +80,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ForAdmin\AddNewUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ForAdmin\AdminAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -117,6 +121,9 @@
     <Compile Include="ConnectDB.cs" />
     <Compile Include="ForAdmin\AddNewAud.xaml.cs">
       <DependentUpon>AddNewAud.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ForAdmin\AddNewUser.xaml.cs">
+      <DependentUpon>AddNewUser.xaml</DependentUpon>
     </Compile>
     <Compile Include="ForAdmin\AdminAccount.xaml.cs">
       <DependentUpon>AdminAccount.xaml</DependentUpon>

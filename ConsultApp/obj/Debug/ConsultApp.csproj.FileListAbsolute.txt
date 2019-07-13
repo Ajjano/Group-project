@@ -100,3 +100,6 @@ C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.P
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.GenerateResource.cache
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CoreCompileInputs.cache
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CopyComplete
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csprojAssemblyReference.cache
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ForAdmin\AddNewUser.g.cs
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ForAdmin\AddNewUser.baml
