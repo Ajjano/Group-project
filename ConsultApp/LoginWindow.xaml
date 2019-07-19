@@ -35,12 +35,12 @@
             </Grid>
             <TextBlock Grid.Row="0" Text="Вход" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
             <StackPanel Grid.Row="2" Orientation="Vertical">
-                <StackPanel  Width="auto" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Margin="20 0 0 0"  Width="auto" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <CheckBox x:Name="Check_Remember" VerticalAlignment="Center" IsChecked="False" Width="20" Height="20" Content="Запомнить"/>
                     <TextBlock Text="Запомнить" TextAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
-                    <Button x:Name="Btn_forgetPassword" Content="Забыли пароль?" Width="auto" FontSize="10" BorderThickness="0" Margin="100 0 0 0"/>
+                    <Button x:Name="Btn_forgetPassword" Background="Transparent" Content="Забыли пароль?" Width="auto" FontSize="10" BorderThickness="0" Margin="100 0 0 0"/>
                 </StackPanel>
-                <Button x:Name="Btn_Login" Content="Войти"/>
+                <Button x:Name="Btn_Login" Content="Войти" Background="Transparent" Width="80" BorderThickness="0"/>
             </StackPanel>
         </Grid>
     </Border>

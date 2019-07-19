@@ -100,6 +100,63 @@ C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.P
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.GenerateResource.cache
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CoreCompileInputs.cache
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConsultApp.csprojAssemblyReference.cache
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ForAdmin\AddNewUser.g.cs
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ForAdmin\AddNewUser.baml
+=======
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\ConsultApp.exe.config
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\ConsultApp.exe
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\ConsultApp.pdb
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\EntityFramework.dll
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\EntityFramework.xml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Booking\BookingPage1.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Booking\BookingPage2.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\AddNewAud.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\AdminAccount.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\AllConsults.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\Rooms.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\Teachers.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\LoginWindow.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Main window\MainWindow.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Main window\panel1.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Personal account\PersonalAccount.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\App.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp_MarkupCompile.cache
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp_MarkupCompile.lref
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\App.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Booking\BookingPage1.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Booking\BookingPage2.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\AddNewAud.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\AdminAccount.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\AllConsults.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\Rooms.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ForAdmin\Teachers.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\LoginWindow.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Main window\MainWindow.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Main window\panel1.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\Personal account\PersonalAccount.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.g.resources
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.Properties.Resources.resources
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.GenerateResource.cache
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.csproj.CopyComplete
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.exe
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.pdb
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConnectWindow.g.cs
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConnectWindow.baml
+C:\Users\Nick\Documents\01_Mine\Group-project\ConsultApp\obj\Debug\ConsultApp.csprojAssemblyReference.cache
+>>>>>>> 63a8cb3d17b400a3a63cc27849b6a891abab745c
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConnectWindow.g.cs
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ForAdmin\NewConsult.g.cs
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\Personal account\ChangePasswordForUser.g.cs
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ConnectWindow.baml
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\ForAdmin\NewConsult.baml
+C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\obj\Debug\Personal account\ChangePasswordForUser.baml

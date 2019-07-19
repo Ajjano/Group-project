@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Ajjano\Desktop\group Pr\Group-project\ConsultApp\App.xaml
-12-2034772203
+15-2075146885
 
-17131292739
+20-1075339025
 18-581864837
-Booking\BookingPage1.xaml;Booking\BookingPage2.xaml;ForAdmin\AddNewAud.xaml;ForAdmin\AddNewUser.xaml;ForAdmin\AdminAccount.xaml;ForAdmin\AllConsults.xaml;ForAdmin\Rooms.xaml;ForAdmin\Teachers.xaml;LoginWindow.xaml;Main window\MainWindow.xaml;Main window\panel1.xaml;Personal account\PersonalAccount.xaml;
+Booking\BookingPage1.xaml;Booking\BookingPage2.xaml;ConnectWindow.xaml;ForAdmin\AddNewAud.xaml;ForAdmin\AddNewUser.xaml;ForAdmin\AdminAccount.xaml;ForAdmin\AllConsults.xaml;ForAdmin\NewConsult.xaml;ForAdmin\Rooms.xaml;ForAdmin\Teachers.xaml;LoginWindow.xaml;Main window\MainWindow.xaml;Main window\panel1.xaml;Personal account\ChangePasswordForUser.xaml;Personal account\PersonalAccount.xaml;
 
 False
 

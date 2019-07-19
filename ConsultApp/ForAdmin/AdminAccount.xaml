@@ -34,7 +34,11 @@
           </Grid>
             <Grid DockPanel.Dock="Top" x:Name="GridCursor" Width="150" Height="5" Background="Gray" HorizontalAlignment="Left" Margin="10 0"/>
             <Grid x:Name="NewdataGrid" Background="WhiteSmoke">
-                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="659*"/>
+                    <ColumnDefinition Width="141*"/>
+                </Grid.ColumnDefinitions>
+
             </Grid>
         </DockPanel>
     </Grid>

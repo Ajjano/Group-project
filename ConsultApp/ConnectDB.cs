@@ -85,4 +85,22 @@ namespace ConsultApp
             return Convert.ToBase64String(hash);
         }
     }
+    // Сериализируемый класс строки подключения к БД
+    [Serializable]
+    public class ConnectionStringBuilder
+    {
+        public string DataSource { get; set; }
+        public string InitialCatalog { get; set; }
+        public bool IntegratedSecurity { get; set; }
+        public string UserID { get; set; }
+        public string Password { get; set; }
+        public string ConnectionString { get
+            {
+                if (IntegratedSecurity)
+                    return $"Data Source={DataSource};Initial Catalog={InitialCatalog};Integrated Security=true;";
+                else
+                    return $"Data Source={DataSource};Initial Catalog={InitialCatalog};User ID={UserID};Password={Password};";
+            }
+        }
+    }
 }
